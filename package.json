@@ -22,21 +22,15 @@
     "coverage": "codecov",
     "commit": "npx git-cz"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettier",
-      "pre-push": "eslint --fix --ext tsx,ts src __tests__"
-    }
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lmjben/cdfang-spider.git"
+    "url": "git+https://github.com/Jax97/react-koa-ts-mongo-graphql.git"
   },
   "author": "lmjben",
   "bugs": {
-    "url": "https://github.com/lmjben/cdfang-spider/issues"
+    "url": "https://github.com/Jax97/react-koa-ts-mongo-graphql/issues"
   },
-  "homepage": "https://github.com/lmjben/cdfang-spider#readme",
+  "homepage": "https://github.com/Jax97/react-koa-ts-mongo-graphql",
   "dependencies": {
     "@ant-design/icons": "^4.0.5",
     "@antv/data-set": "^0.11.1",

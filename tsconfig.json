@@ -1,11 +1,14 @@
 {
-    "complierOptions":{
-        "module":"commonjs",
-        "noImplicitAny":true,
-        "removeComments":true,
-        "preserveComments":true,
-        "sourceMap":true,
-        "outDir":"./dist"
+    "complierOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveComments": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "allowJs": true,
     },
-    "exclude": ["node_modules"]
+    "exclude": [
+        "node_modules"
+    ]
 }

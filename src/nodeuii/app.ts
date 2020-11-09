@@ -1,5 +1,5 @@
 const Koa = require('koa');
-const serve = require('koa-static');// 处理静态资源文件
+const serve = require('koa-static'); // 处理静态资源文件
 const koaBody = require('koa-body');
 const log4js = require('log4js');
 
@@ -17,4 +17,4 @@ app.use(koaBody());
 
 app.use(serve('client'));
 
-console.log(`server is running at http://localhost:${config.serverPort}`)
+console.log(`server is running at http://localhost:${config.serverPort}`);

@@ -1,12 +1,14 @@
 {
-    "complierOptions": {
-        "module": "commonjs",
+    "compilerOptions": {
         "noImplicitAny": true,
-        "removeComments": true,
-        "preserveComments": true,
         "sourceMap": true,
         "outDir": "./dist",
         "allowJs": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true, // 允许export导出，import from导入
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "module": "esnext",
     },
     "exclude": [
         "node_modules"

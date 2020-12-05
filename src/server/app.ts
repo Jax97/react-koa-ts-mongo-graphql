@@ -22,6 +22,22 @@ import AccessHandler from './middleware/AccessHandler';
 // })
 
 // log4js.getLogger('global');
+const loggerConfig = {
+  appenders: {
+    global: {
+      type: 'file',
+      filename: './logs/global',
+      pattern: '-yyyy-MM-dd.log',
+    },
+  },
+  categories: {
+    default: {
+      appenders: ['global'],
+      level: 'info',
+    },
+  },
+};
+log4js.configure(loggerConfig);
 const app = new Koa();
 
 AccessHandler.init(app);
